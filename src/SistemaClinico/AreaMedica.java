@@ -9,12 +9,8 @@ package SistemaClinico;
  *
  * @author Joyce Rojas
  */
-public class Secretaria extends Persona{    
-	public void verificarCita(){      
-
-	}
-	public void agendarCita(){  
-
-	}
-
-} 
+public class AreaMedica{
+	protected String especialidad; 
+	protected float costo;  
+	protected Doctor doctor; 
+}
