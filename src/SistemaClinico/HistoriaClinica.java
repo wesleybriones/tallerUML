@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author FAMILY
+ * @author ANGIE
  */
 public class HistoriaClinica {
     protected int nro; 
