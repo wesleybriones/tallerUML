@@ -22,7 +22,7 @@ public class Paciente extends Persona{
     
     public boolean solicitarCita(){
         consultarCitasDisponibles();
-        if (cita.agendarCita()==true){
+        if (cita.agendarCita()){
             cita.enviarCorreo();
             return true;
         }return false;
