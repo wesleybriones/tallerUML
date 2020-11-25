@@ -8,7 +8,10 @@ package SistemaClinico;
 public class Doctor extends Persona{
 	protected int regDoctor;  
 	protected String especialidad;    
-	protected Secretaria secretaria; 
+	protected Secretaria secretaria;   
+        protected Cita cita;  
+        protected Receta receta; 
+        public boolean disponible; 
 
 	public void recetar(){  
 
@@ -33,4 +36,10 @@ public class Doctor extends Persona{
 	public Secretaria getSecretaria(){  
 		return secretaria;  
 	}
+        public boolean getStatusDoctor(){
+            return disponible;  
+        }
+        public void setStatusDoctor(boolean b){
+            this.disponible=b;
+        }
 } 

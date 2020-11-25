@@ -27,4 +27,7 @@ public class Cita {
             System.out.println("Correo enviado.");
         System.out.println("Necesita agendar cita");
     }
+    public void consultarCita(Paciente paciente){
+        paciente.consultarCitasDisponibles();
+    }
 }
