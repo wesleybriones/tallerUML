@@ -7,6 +7,7 @@
 - MARCK MURILLO
 
 # DIAGRAMAS
-	![IMAGEN](Diagramas de Secuencia.png)
+Lectura imagen
+	![imagen](diagramas/Diagramas_de_Secuencia.png)
 
 
