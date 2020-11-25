@@ -6,3 +6,7 @@
 - WESLEY BRIONES
 - MARCK MURILLO
 
+# DIAGRAMAS
+	![IMAGEN](Diagramas de Secuencia.png)
+
+
